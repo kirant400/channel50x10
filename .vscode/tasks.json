@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Make Flash",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "flash"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Runs make flash to program the microcontroller."
+        },
+        {
+            "label": "Make All",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "all"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Build the program."
+        },
+        {
+            "label": "Make Clean",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Clean the Build."
+        }
+    ]
+}
